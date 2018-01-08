@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  SubViewController.swift
 //  StatusBarStyleDemo
 //
 //  Created by dong on 08/01/2018.
@@ -8,13 +8,11 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
-    
+class SubViewController: UIViewController {
+
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
-        navigationController?.navigationBar.barStyle = .default
+        navigationController?.navigationBar.barStyle = .black
     }
-
 }
-
